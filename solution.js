@@ -1,5 +1,4 @@
-pol = () => {console.log('I\'m alive!')};
-
-const arr1 = [2, 4, 6, 8, 10];
+function find_average(arr){
 const averager = (accumulator, currentValue) => accumulator + currentValue;
-console.log(arr1.reduce(averager % arr1.length));
+return arr.reduce(averager) / arr.length;
+};
