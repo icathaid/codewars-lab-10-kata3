@@ -1,0 +1,1 @@
+# codewars-lab-10-kata3
